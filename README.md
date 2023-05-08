@@ -1,8 +1,11 @@
-# Websocket Demo
-Peer-to-peer communication through websocket connection
-- this chat implementation is far from being perfect, but more than enough to show how powerful JavaScript websocket implementation is
+# Live chat demo
 
-## JavaScript
-- run `npm install` to install the necessary packages
-- run `node server.js` first then `node client.js` to establish the websocket connection
-- modify files in the `/peers` directory to send/receive messages to/from the other pair
+## Description
+- Functional demo for live peer-to-peer communication through websocket connection 
+
+## Setup
+- Run `npm install` to install the necessary packages
+- First run `node server.js` and then `node client.js` to establish the websocket connection
+
+## Usage
+- Each `/peers/client` and  `/peers/server` files represent a chat board for each side, while the websocket connection is live write and save the file to communicate with the other pair
